@@ -1,9 +1,11 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+function page() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      Landing page
+      <h1 className='text-5xl' > Sign Up Page</h1>
     </div>
   );
 }
+
+export default page
